@@ -43,7 +43,7 @@ const ROAD_LABEL_DISPLAY = true;
 const PRIVACY_MODE = false;
 // update for now 2024/11/17 the lights on default is false
 //set to `false` if you want to make light off as default, only effect when `PRIVACY_MODE` = false
-const LIGHTS_ON =false;
+const LIGHTS_ON =true;
 // richer title for the activity types (like garmin style)
 const RICH_TITLE = true;
 
@@ -135,8 +135,8 @@ const red = 'rgb(255,0,0)';//大红色
 // issues #92 and #198
 export const NEED_FIX_MAP = false;
 export const MAIN_COLOR = green;
-export const RUN_COLOR = yellow;
-export const RIDE_COLOR = green;
+export const RUN_COLOR = green;
+export const RIDE_COLOR = yellow;
 export const VIRTUAL_RIDE_COLOR = veryPeri;
 export const HIKE_COLOR = pink;
 export const SWIM_COLOR = gold;
